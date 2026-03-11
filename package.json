@@ -2,9 +2,20 @@
   "name": "gilded_doghouse",
   "version": "1.0.0",
   "description": "Recruitment task",
-  "main": "gilded_doghouse.js",
+  "main": "dist/gilded_doghouse.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "tsc --noEmit && jest",
+    "test:watch": "jest --watch",
+    "build": "tsc"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testMatch": [
+      "**/*.test.ts"
+    ]
   },
   "repository": {
     "type": "git",
