@@ -1,5 +1,9 @@
 class GildedDoghouse {
-  constructor ({ name, daysRemaining, quality }) {
+  name: any
+  daysRemaining: any
+  quality: any
+
+  constructor({ name, daysRemaining, quality }: any) {
     this.name = name
     this.daysRemaining = daysRemaining
     this.quality = quality
@@ -52,4 +56,4 @@ class GildedDoghouse {
   }
 }
 
-module.exports = GildedDoghouse
+export default GildedDoghouse

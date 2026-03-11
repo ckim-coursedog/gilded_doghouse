@@ -1,4 +1,4 @@
-const GildedDoghouse = require('./gilded_doghouse')
+import GildedDoghouse from './gilded_doghouse'
 
 describe('GildedDoghouse', () => {
   describe('normal item', () => {
