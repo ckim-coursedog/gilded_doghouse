@@ -16,6 +16,9 @@
   },
   "homepage": "https://github.com/coursedog/gilded_doghouse#readme",
   "devDependencies": {
-    "jest": "^27.4.3"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
   }
 }
